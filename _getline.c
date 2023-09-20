@@ -5,12 +5,12 @@
 /**
  * _getline - getline() reads an entire line from fd, storing the address
  *	of the buffer containing the text into *lineptr. The buf‐fer
- *	is null-terminated and includes the newline character
- *@lineptr: a double pointer to store the address of the line
- *@n: the size of the allocating for lineptr
+ *	is null-terminated, includes the newline character
+ *@lineptr: a double pointer to store the address for the line
+ *@n: the size of the allocating lineptr
  *@fd: file descriptor
  *
- * Return: the size of the line read from fd
+ * Return: size of the line read from fd
  */
 
 ssize_t _getline(char **lineptr, size_t *n, int fd)
